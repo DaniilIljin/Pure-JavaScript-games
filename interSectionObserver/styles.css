@@ -1,0 +1,30 @@
+.card-container {
+  position: absolute;
+  align-items: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid #000;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40vh;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  align-items: center;
+}
+.card {
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  font-size: 3vh;
+  padding: .5vh;
+  transform: translateX(100px);
+  opacity: 0;
+  transition: 150ms;
+}
+.show {
+  transform: translateX(0);
+  opacity: 1;
+}

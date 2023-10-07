@@ -1,0 +1,33 @@
+/* Centering the fieldset */
+fieldset {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Styling the fieldset */
+  fieldset {
+    width: 20vw;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  /* Styling the legend */
+  legend {
+    font-weight: bold;
+  }
+  
+  /* Styling the game links */
+  fieldset a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  fieldset a:hover {
+    text-decoration: underline;
+  }
+  
